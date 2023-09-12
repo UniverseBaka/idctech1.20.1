@@ -1,0 +1,16 @@
+{
+  "item.idctech.inverite":"Inverite",
+  "item.idctech.wrench":"Wrench",
+  "item.idctech.raw_inverite": "Raw Inverite",
+
+  "block.idctech.inverite_ore":"Inverite Ore",
+  "block.idctech.inverite_block":"Inverite Block",
+  "block.idctech.deepslate_inverite_ore": "Deepslate Inverite Ore",
+  "block.idctech.nether_inverite_ore": "Nether Inverite Ore",
+  "block.idctech.end_inverite_ore": "End Inverite Ore",
+
+  "tooltip.idctech.wrench": "Shift Right-click machines, pipes, and cables to pick them up without mining them,",
+  "tooltip.idctech.wrench2": "this uses one durability each time the wrench is used."
+
+
+}
