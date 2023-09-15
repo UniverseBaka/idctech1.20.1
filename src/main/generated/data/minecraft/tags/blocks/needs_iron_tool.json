@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "idctech:deepslate_inverite_ore",
+    "idctech:inverite_ore",
+    "idctech:nether_inverite_ore",
+    "idctech:end_inverite_ore"
+  ]
+}

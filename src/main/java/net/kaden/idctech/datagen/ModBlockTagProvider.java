@@ -26,7 +26,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider{
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DEEPSLATE_INVERITE_ORE, ModBlocks.INVERITE_ORE, ModBlocks.NETHER_INVERITE_ORE, ModBlocks.END_INVERITE_ORE);
         getOrCreateTagBuilder(ModTags.Blocks.ISWRENCHABLE)
-                .add(Blocks.DIRT, Blocks.GRASS_BLOCK);
+                .add(Blocks.HOPPER, Blocks.CHEST, Blocks.TRAPPED_CHEST,Blocks.FURNACE);
 
         getOrCreateTagBuilder(ModTags.Blocks.ORE)
                 .add(ModBlocks.INVERITE_ORE, ModBlocks.NETHER_INVERITE_ORE, ModBlocks.END_INVERITE_ORE, ModBlocks.DEEPSLATE_INVERITE_ORE);

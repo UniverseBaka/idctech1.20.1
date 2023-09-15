@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_inverite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "idctech:nether_inverite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:inverite_from_smelting_nether_inverite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_inverite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:inverite_from_smelting_nether_inverite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

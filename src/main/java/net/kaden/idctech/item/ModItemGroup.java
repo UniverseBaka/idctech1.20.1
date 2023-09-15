@@ -40,6 +40,7 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.idctech_tools"))
                     .icon(() -> new ItemStack(ModItems.WRENCH)).entries((displayContext, entries) -> {
                         entries.add(ModItems.WRENCH);
+                        entries.add(ModItems.DATA_TABLET);
                     }).build());
     public static final ItemGroup IDCTECH_BLOCK = Registry.register(Registries.ITEM_GROUP,
             new Identifier(IDCTECH.MOD_ID, "block"),

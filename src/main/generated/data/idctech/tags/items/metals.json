@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "idctech:inverite",
+    "minecraft:iron_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:netherite_ingot"
+  ]
+}

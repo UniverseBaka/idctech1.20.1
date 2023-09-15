@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "inverite_smelting",
+  "ingredient": {
+    "item": "idctech:inverite_ore"
+  },
+  "result": "idctech:inverite"
+}

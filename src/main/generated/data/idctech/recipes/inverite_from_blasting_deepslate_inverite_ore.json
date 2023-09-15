@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "group": "inverite_blasting",
+  "ingredient": {
+    "item": "idctech:deepslate_inverite_ore"
+  },
+  "result": "idctech:inverite"
+}

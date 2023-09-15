@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:hopper",
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:furnace"
+  ]
+}

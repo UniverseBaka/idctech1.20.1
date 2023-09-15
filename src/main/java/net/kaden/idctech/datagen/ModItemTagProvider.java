@@ -17,7 +17,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     public void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Items.TECH)
-                .add(ModItems.WRENCH);
+                .add(ModItems.WRENCH)
+                .add(ModItems.DATA_TABLET);
 
         getOrCreateTagBuilder(ModTags.Items.METALS)
                 .add(ModItems.INVERITE, Items.IRON_INGOT, Items.GOLD_INGOT, Items.COPPER_INGOT,Items.NETHERITE_INGOT);

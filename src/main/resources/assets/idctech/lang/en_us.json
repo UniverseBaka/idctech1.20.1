@@ -11,7 +11,7 @@
 
   "tooltip.idctech.wrench": "Shift Right-click machines, pipes, and cables to pick them up without mining them,",
   "tooltip.idctech.wrench2": "this uses one durability each time the wrench is used.",
-
+  "item.idctech.data_tablet": "Data Tablet",
   "block.idctech.inverite_lamp_block": "Inverite Lamp"
 
 

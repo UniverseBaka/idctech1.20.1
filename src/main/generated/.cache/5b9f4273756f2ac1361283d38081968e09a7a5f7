@@ -1,0 +1,6 @@
+// 1.20.1	2023-09-15T08:51:15.2929218	idcTech/Tags for minecraft:block
+d51208340a49957c46109e7b0dd9070278a56081 data\idctech\tags\blocks\metal_blocks.json
+5e3d92cd9d832616a295981b9cc82db9030f3ef5 data\idctech\tags\blocks\iswrenchable.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_5.json
+7acbee20c8def08e9d0ce60800d5d486f24d9fda data\minecraft\tags\blocks\needs_iron_tool.json
+838629f29825dc8c93e55dae2fe816bc9973e4d4 data\idctech\tags\blocks\ore.json

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "idctech:block/inverite_lamp_block"
+    },
+    "clicked=true": {
+      "model": "idctech:block/inverite_lamp_block_on"
+    }
+  }
+}

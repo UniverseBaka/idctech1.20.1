@@ -50,6 +50,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.INVERITE_PICKAXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.INVERITE_AXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.INVERITE_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DATA_TABLET, Models.GENERATED);
 
 
     }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "idctech:block/inverite_lamp_block_on"
+  }
+}
