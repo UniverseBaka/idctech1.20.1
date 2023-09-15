@@ -3,8 +3,11 @@ package net.kaden.idctech.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kaden.idctech.IDCTECH;
+import net.kaden.idctech.block.custom.InveriteLampBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -25,11 +28,12 @@ public class ModBlocks {
             new Block( FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(4f)));
     public static final Block END_INVERITE_ORE = registerBLock("end_inverite_ore",
             new Block( FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
-
-
     private static Item registerBLockItem(String name, Block block){
         return Registry.register(Registries.ITEM, new Identifier(IDCTECH.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
     }
+
+public static final Block INVERITE_LAMP_BLOCK = registerBLock("inverite_lamp_block",
+        new InveriteLampBlock(FabricBlockSettings.create().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASEDRUM).strength(4f).requiresTool().luminance((state -> state.get(InveriteLampBlock.CLICKED) ? 15 : 0))));
     private static Block registerBLock(String name, Block block){
         registerBLockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(IDCTECH.MOD_ID, name), block);

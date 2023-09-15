@@ -5,8 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.kaden.idctech.block.ModBlocks;
 import net.kaden.idctech.item.ModItems;
 
-public class ModBLockLootTableGenerator extends FabricBlockLootTableProvider {
-    public ModBLockLootTableGenerator(FabricDataOutput dataOutput) {
+public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
+    public ModBlockLootTableGenerator(FabricDataOutput dataOutput) {
         super(dataOutput);
     }
 

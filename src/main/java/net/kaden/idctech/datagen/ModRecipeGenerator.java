@@ -6,6 +6,8 @@ import net.kaden.idctech.block.ModBlocks;
 import net.kaden.idctech.item.ModItems;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Items;
+import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -37,6 +39,14 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(ModItems.INVERITE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.WRENCH)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.INVERITE_LAMP_BLOCK)
+                .pattern(" R ")
+                .pattern("RIR")
+                .pattern(" R ")
+                .input('I', ModBlocks.INVERITE_BLOCK)
+                .input('R', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(ModBlocks.INVERITE_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.INVERITE_LAMP_BLOCK)));
 
     }
 }

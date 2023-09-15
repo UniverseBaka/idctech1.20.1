@@ -14,7 +14,7 @@ public class IDCTECHDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(ModRecipeGenerator::new);
 		pack.addProvider(ModModelProvider::new);
-		pack.addProvider(ModBLockLootTableGenerator::new);
+		pack.addProvider(ModBlockLootTableGenerator::new);
 		pack.addProvider(ModItemTagProvider::new);
 	}
 }
