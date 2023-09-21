@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "idctech:item/data_tablet_off"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "idctech:on": 1
+      },
+      "model": "idctech:item/data_tablet_on"
+    }
+  ]
+}

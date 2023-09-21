@@ -18,14 +18,12 @@ public class DataTabletItem extends Item {
         super(settings);
     }
 
-    @Override
-    public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        ItemStack stack = user.getStackInHand(hand);
-        if(stack.hasNbt()) {
+    // Method to set the "idctech.last_block_wrenched" NBT data
+    public static void setLastBlockWrenched(ItemStack stack, String lastBlockWrenched) {
+        if (!stack.hasNbt()) {
             stack.setNbt(new NbtCompound());
         }
-
-        return super.use(world, user, hand);
+        stack.getNbt().putString("idctech.last_block_wrenched", lastBlockWrenched);
     }
 
     @Override
@@ -35,10 +33,9 @@ public class DataTabletItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if(stack.hasNbt()) {
+        if (stack.hasNbt()) {
             String lastBlockWrenched = stack.getNbt().getString("idctech.last_block_wrenched");
             tooltip.add(Text.literal(lastBlockWrenched));
         }
     }
 }
-
